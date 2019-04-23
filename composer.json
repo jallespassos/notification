@@ -1,0 +1,24 @@
+{
+    "name": "jallespassos/notification",
+    "description": "UpInside Composer Course Test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalles Passos",
+            "email": "jallespassos@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "v6.0.7"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
